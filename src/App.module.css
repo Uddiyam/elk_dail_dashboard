@@ -1,11 +1,10 @@
-
-.SideList{
+.SideList {
     cursor: pointer !important;
-}
+  }
 
-.SideBar{
+  .SideBar {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     background-color: rgb(235, 235, 243);
     width: 20%;
@@ -13,34 +12,35 @@
     text-align: center;
     line-height: 270%;
     display: block;
-}
+  }
 
-.ListWrap{
+  .ListWrap {
     margin-top: 15%;
-}
+  }
 
-.List{
+  .List {
     cursor: pointer;
     font-size: 1.3em;
-    opacity: 0.2;
-}
-.List:hover{
+    opacity: 0.8;
+    transition: font-size 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  }
+  .List:hover {
     cursor: pointer;
     font-size: 1.3em;
     opacity: 0.4;
-}
+  }
 
-.Container{
+  .Container {
     margin-left: 20%;
     margin-top: 4%;
-}
+  }
 
-.Logo{
+  .Logo {
     margin-top: 15%;
     margin-bottom: 2%;
-}
+  }
 
-.Name{
+  .Name {
     font-weight: bold;
     font-size: 1.6em;
-}
+  }

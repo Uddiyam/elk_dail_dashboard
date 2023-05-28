@@ -1,8 +1,7 @@
-/* eslint-disable */
 import React, { useState } from "react";
 import styles from "./App.module.css";
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(1);
   return (
     <div>
@@ -21,7 +20,14 @@ function App() {
             setCount(1);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 1 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 1 && "1",
+              fontSize: count == 1 && "1.5em",
+              fontWeight: count == 1 && "bold",
+            }}
+          >
             성과요약1
           </span>
         </div>
@@ -30,7 +36,14 @@ function App() {
             setCount(2);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 2 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 2 && "1",
+              fontSize: count == 2 && "1.5em",
+              fontWeight: count == 2 && "bold",
+            }}
+          >
             성과요약2
           </span>
         </div>
@@ -39,7 +52,14 @@ function App() {
             setCount(3);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 3 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 3 && "1",
+              fontSize: count == 3 && "1.5em",
+              fontWeight: count == 3 && "bold",
+            }}
+          >
             상품상세트렌드
           </span>
         </div>
@@ -48,7 +68,14 @@ function App() {
             setCount(4);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 4 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 4 && "1",
+              fontSize: count == 4 && "1.5em",
+              fontWeight: count == 4 && "bold",
+            }}
+          >
             카테고리트렌드
           </span>
         </div>
@@ -57,7 +84,14 @@ function App() {
             setCount(5);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 5 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 5 && "1",
+              fontSize: count == 5 && "1.5em",
+              fontWeight: count == 5 && "bold",
+            }}
+          >
             취소/교환/반품
           </span>
         </div>
@@ -66,7 +100,14 @@ function App() {
             setCount(6);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 6 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 6 && "1",
+              fontSize: count == 6 && "1.5em",
+              fontWeight: count == 6 && "bold",
+            }}
+          >
             구매고객구성1
           </span>
         </div>
@@ -75,7 +116,14 @@ function App() {
             setCount(7);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 7 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 7 && "1",
+              fontSize: count == 7 && "1.5em",
+              fontWeight: count == 7 && "bold",
+            }}
+          >
             구매고객구성2
           </span>
         </div>
@@ -84,7 +132,14 @@ function App() {
             setCount(8);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 8 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 8 && "1",
+              fontSize: count == 8 && "1.5em",
+              fontWeight: count == 8 && "bold",
+            }}
+          >
             고객당주문
           </span>
         </div>
@@ -93,7 +148,14 @@ function App() {
             setCount(9);
           }}
         >
-          <span className={styles.List} style={{ opacity: count == 9 && "1" }}>
+          <span
+            className={styles.List}
+            style={{
+              opacity: count == 9 && "1",
+              fontSize: count == 9 && "1.5em",
+              fontWeight: count == 9 && "bold",
+            }}
+          >
             vip고객분석
           </span>
         </div>
@@ -187,5 +249,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
