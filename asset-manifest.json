@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/elk_dail_dashboard/static/css/main.6061f116.css",
-    "main.js": "/elk_dail_dashboard/static/js/main.897fefa2.js",
+    "main.js": "/elk_dail_dashboard/static/js/main.3f95d82a.js",
     "index.html": "/elk_dail_dashboard/index.html",
     "main.6061f116.css.map": "/elk_dail_dashboard/static/css/main.6061f116.css.map",
-    "main.897fefa2.js.map": "/elk_dail_dashboard/static/js/main.897fefa2.js.map"
+    "main.3f95d82a.js.map": "/elk_dail_dashboard/static/js/main.3f95d82a.js.map"
   },
   "entrypoints": [
     "static/css/main.6061f116.css",
-    "static/js/main.897fefa2.js"
+    "static/js/main.3f95d82a.js"
   ]
 }
